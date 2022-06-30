@@ -4,8 +4,8 @@
 
 # Cardboard++
 accessible VR based on arduino, google cardboard, and web sockets
-<br>
-To run cardboard++,
+<br> <br>
+to run cardboard++,
 <br>
 ```
 - upload the .ino sketch to an arduino that is attached to a GY-521 module
