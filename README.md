@@ -22,7 +22,7 @@ Some cool images of Cardboard++
   <br>
   the cardboard++ in all its glory
   <br> <br> <br>
-  <img src="img2.png" height="500"/>
+  <img src="img2.png"/>
   <br>
   Hinson sweating minecraft while using cardboard++
  <p>
