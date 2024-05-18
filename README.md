@@ -42,12 +42,7 @@ Check the output port of your Arduino. This can most easily be done through the 
 After powering the Arduino, `script.py` can be run using `python3 script.py` to grab the gyroscope data.
 **note: headset will have to be stationary initially to set a reference point for all other gyroscope data**
 
+## Extra
+My teammate Hinson made a video on the project, which can be viewed [here](https://www.youtube.com/watch?v=KP3yoWUXz70).
 
-Check out my teammate Hinson's video on the headset here:
-
-<div align="center" markdown="1">
-
-[![hi youtube](https://img.youtube.com/vi/KP3yoWUXz70/0.jpg)](https://www.youtube.com/watch?v=KP3yoWUXz70)
-  
-</div>
 
