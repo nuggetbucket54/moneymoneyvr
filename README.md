@@ -13,7 +13,7 @@ These instructions will (hopefully) get the repo up and running on your local ma
 ### Prerequisites
 You should have some version of Python3, Node.js, and npm working and running on your local system. To check if they are installed, as well as their respective versions on your local machine, you can run:
 ```
-python3
+python3 --version
 node -v
 npm -v
 ```
