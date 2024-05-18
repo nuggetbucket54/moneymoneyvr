@@ -14,7 +14,12 @@ npm -v
 
 You may also want to install the Arduino IDE, as it provides the easiest environment to work with Arduino hardware.
 
+### Installation
+- Install the necessary Python libraries with `pip install pyautogui pyserial`
 
+- Install the necessary node modules by navigating to the `video_sockets` directory, initializing the node server with `npm init`, and installing necessary dependencies with `npm i`
+
+- You may also need to install the [necessary libraries](https://www.arduino.cc/reference/en/libraries/mpu6050_light/) for the MPU6050 gyroscope module. This can be done through the Arduino IDE's built-in library installation tool. See [here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) for clarification.
 
 Check out my teammate Hinson's video on the headset here:
 
