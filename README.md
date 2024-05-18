@@ -21,6 +21,28 @@ You may also want to install the Arduino IDE, as it provides the easiest environ
 
 - You may also need to install the [necessary libraries](https://www.arduino.cc/reference/en/libraries/mpu6050_light/) for the MPU6050 gyroscope module. This can be done through the Arduino IDE's built-in library installation tool. See [here](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) for clarification.
 
+
+## Running the Project
+### Web Server
+To run the web server to connect computer video output to your mobile device, navigate to the `video_sockets` directory and run:
+
+```
+node server.js
+cd client
+npm run start
+```
+
+### Arduino Hardware
+#### The Headset
+The circuitry involved for this project is just a simple circuit connecting an MPU6050 module to an Arduino UNO. Orientation of the gyroscope shouldn't matter, though cartesian components may have to be switched around in `script.py` depending on how the module is placed.
+
+#### Running the Arduino
+Check the output port of your Arduino. This can most easily be done through the Arduino IDE. Navigate to the `hardware` directory and update the Serial port and BAUD rate in `script.py` to what is given by the Arduino IDE.
+
+After powering the Arduino, `script.py` can be run using `python3 script.py` to grab the gyroscope data.
+**note: headset will have to be stationary initially to set a reference point for all other gyroscope data**
+
+
 Check out my teammate Hinson's video on the headset here:
 
 <div align="center" markdown="1">
@@ -29,12 +51,3 @@ Check out my teammate Hinson's video on the headset here:
   
 </div>
 
-
-
-### How to run cardboard++
-
-- Upload the .ino sketch to an arduino that is attached to a GY-521 module
-- Start the .ino sketch and open the serial terminal to start the program
-- Run the .py file to grab data from the .ino sketch
-- Start the webserver with `npm run client`
-- Access the webserver on the device in the Google cardboard and enjoy Cardboard++!
