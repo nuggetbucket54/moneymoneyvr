@@ -1,5 +1,8 @@
 # Cardboard++
-Accessible VR based on arduino, google cardboard, and web sockets. 
+An accessible VR headset using Google Cardboard, an Arduino board, and WebSockets. The headset utilizes an Arduino gyroscope module to track head movements, which are then translated into mouse movements. Socket\.io is then integrated to allow computer video output to be mirrored onto the headset in a VR format, allowing for a VR headset compatible with any first-person experience (e.g., Minecraft, Valorant, Microsoft Flight Simulator, etc.)
+
+
+
 
 Check out my teammate Hinson's video on the headset here:
 
