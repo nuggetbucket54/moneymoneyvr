@@ -1,8 +1,14 @@
 # Cardboard++
-An accessible VR headset using Google Cardboard, an Arduino board, and WebSockets. The headset utilizes an Arduino gyroscope module to track head movements, which are then translated into mouse movements. Socket\.io is then integrated to allow computer video output to be mirrored onto the headset in a VR format, allowing for a VR headset compatible with any first-person experience (e.g., Minecraft, Valorant, Microsoft Flight Simulator, etc.)
+An accessible VR headset using cardboard, an Arduino board, and WebSockets. The headset utilizes an Arduino gyroscope module to track head movements, which are then translated into mouse movements. Socket\.io is then integrated to allow computer video output to be mirrored onto the headset in a VR format, allowing for a VR headset compatible with any first-person experience (e.g., Minecraft, Valorant, Microsoft Flight Simulator, etc.)
+
+<div align="center" markdown="1">
+  <br/>
+  <img width="400" src="https://github.com/nuggetbucket54/moneymoneyvr/assets/55860775/41f95616-9a06-4f9d-a93c-0df4a290a971"/>
+  <img width="400" src="https://github.com/nuggetbucket54/moneymoneyvr/assets/55860775/f30a3214-9d48-49e6-ad54-f167f15fc698"/>
+</div>
 
 ## Getting Started
-These instructions will (hopefully) get the repo up and running on your local machine! To be transparent, this project was made over the course of a single weekend, and thus may have deprecated or obscure dependencies that are difficult to get working on different systems.
+These instructions will (hopefully) get the repo up and running on your local machine! **To be transparent, this project was made over the course of a single weekend, and thus may have deprecated or obscure dependencies that are difficult to get working on different systems.**
 
 ### Prerequisites
 You should have some version of Python3, Node.js, and npm working and running on your local system. To check if they are installed, as well as their respective versions on your local machine, you can run:
@@ -40,9 +46,9 @@ The circuitry involved for this project is just a simple circuit connecting an M
 Check the output port of your Arduino. This can most easily be done through the Arduino IDE. Navigate to the `hardware` directory and update the Serial port and BAUD rate in `script.py` to what is given by the Arduino IDE.
 
 After powering the Arduino, `script.py` can be run using `python3 script.py` to grab the gyroscope data.
-**note: headset will have to be stationary initially to set a reference point for all other gyroscope data**
+**Note: headset will have to be stationary initially to set a reference point for all other gyroscope data**
 
 ## Extra
-My teammate Hinson made a video on the project, which can be viewed [here](https://www.youtube.com/watch?v=KP3yoWUXz70).
+My broski Hinson (from the pic up top) made a video on the project, which can be viewed [here](https://www.youtube.com/watch?v=KP3yoWUXz70).
 
 
