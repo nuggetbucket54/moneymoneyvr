@@ -4,6 +4,17 @@ An accessible VR headset using Google Cardboard, an Arduino board, and WebSocket
 ## Getting Started
 These instructions will (hopefully) get the repo up and running on your local machine! To be transparent, this project was made over the course of a single weekend, and thus may have deprecated or obscure dependencies that are difficult to get working on different systems.
 
+### Prerequisites
+You should have some version of Python3, Node.js, and npm working and running on your local system. To check if they are installed, as well as their respective versions on your local machine, you can run:
+```
+python3
+node -v
+npm -v
+```
+
+You may also want to install the Arduino IDE, as it provides the easiest environment to work with Arduino hardware.
+
+
 
 Check out my teammate Hinson's video on the headset here:
 
