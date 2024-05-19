@@ -29,6 +29,8 @@ You may also want to install the Arduino IDE, as it provides the easiest environ
 
 
 ## Running the Project
+The following information will also be listed in the respective directories (`video_sockets` and `hardware`)
+
 ### Web Server
 To run the web server to connect computer video output to your mobile device, navigate to the `video_sockets` directory and run:
 
