@@ -1,5 +1,6 @@
 # MONEYMONEYVR 🤑
-An accessible VR headset built using cardboard, an Arduino board, and WebSockets. The headset utilizes an Arduino gyroscope module to track head movements, which are then translated into mouse movements. Socket\.io is then integrated to allow computer video output to be mirrored onto the headset in a VR format, allowing for a VR headset compatible with any first-person experience (e.g., Minecraft, Valorant, Microsoft Flight Simulator, etc.)
+An accessible VR headset built using cardboard, Arduino, and Socket\.io. The headset utilizes an Arduino gyroscope module to track head movements, which is then translated into approximate roll/pitch/yaw data for corresponding mouse movements. Socket\.io is then integrated to allow computer video output to be duplicated and mirrored onto a phone in the headset, creating a VR headset compatible with any first-person experience or game (e.g., Minecraft, Valorant, Microsoft Flight Simulator, etc.)
+
 
 <div align="center" markdown="1">
   <br/>
